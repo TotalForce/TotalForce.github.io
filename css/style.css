@@ -72,10 +72,7 @@ height: 300px;
 #about_preview {
 	display: flex;
     justify-content: center;
-	flex-direction: row; 
-	
-	 width: 700px;
-height: 300px; 
+	flex-direction: row;  
 }
 
 div.feature_stripe {
