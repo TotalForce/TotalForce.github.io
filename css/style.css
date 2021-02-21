@@ -64,10 +64,11 @@ h3, p {
     width: 600px; 
 	font-size: 30px;
 }
+/*
 #about_preview > preview > iframe {
  width: 700px;
 height: 300px; 
-}
+}*/
 
 #about_preview {
 	display: flex;
