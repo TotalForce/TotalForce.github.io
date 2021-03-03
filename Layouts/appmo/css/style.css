@@ -1,0 +1,95 @@
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+body  > * {
+ display: flex;
+ justify-content: center;
+}
+
+#title_bar {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+#title_phone {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly; 
+}
+
+#awesome_features {
+ display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+ align-items: center;
+}
+
+.left_column {
+	 display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.right_column {
+	 display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#appmo_email {
+	 display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+ align-items: center;
+}
+
+#mohamed_saed {
+	
+	 display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+ align-items: center;
+}
+
+#appmo_newsletter {
+	 display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+ align-items: center;
+}
+
+#screenshots_app { 
+	 display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+ align-items: center;
+}
+
+#member_packed {
+     display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+ align-items: center;
+}
+
+#apmo_team {
+	 display: flex;
+ flex-wrap: wrap;
+  flex-direction: column;  
+ align-items: center;
+}
+
+#icons {
+	
+}
+
+#leave_thought {
+	
+}

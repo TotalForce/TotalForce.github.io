@@ -1,0 +1,58 @@
+header {
+ display: flex;
+ justify-content: center; 
+}
+
+body {
+
+}
+
+.profile {
+  position: relative;
+}
+
+.profile > * {
+  position:absolute;
+  top: 0;  
+}
+
+.foodContainer {
+ 	display: flex;
+	flex-direction: column;
+	
+	/*
+	background-image: url("images/ArmstrongProfile.png");
+	   background-size: cover;
+*/ 
+}
+
+.foodContainer > img {
+  z-index: -1;	
+}
+
+#food_row {
+ display: flex;
+ flex-direction: row; 
+ justify-content: space-evenly;
+}
+
+.kg {
+ display: flex;
+ flex-direction: column; 
+ align-items: flex-end;
+}
+
+.circle {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.in_circle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  align-items: center; 
+}

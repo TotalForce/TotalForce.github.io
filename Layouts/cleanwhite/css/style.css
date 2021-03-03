@@ -1,0 +1,130 @@
+header {
+ display: flex;
+ justify-content: flex-end;
+}
+
+body {	
+ grid-template-columns: fr;
+ grid-template-rows: 15% 35% 15% 25%;
+ 
+ background-color: black; 
+}
+
+body > * {
+ display: flex;
+ justify-content: center; 
+ align-content: center;
+ width: 100%;
+}
+
+#title_back {
+ background-color: red;
+ /*
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+*/
+ grid-row-start: 1;
+ grid-row-end: 3;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /*flex-flow: column wrap;*/
+}
+
+#title_back > *{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#featured_work {
+ grid-row-start: 2;
+ grid-row-end: 4;
+ background-color: pink;
+	 
+ display: flex;
+ justify-content: center;
+ flex-flow: column wrap;
+ align-items: center;
+}
+
+#fetured_work > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.featured_row {
+	
+}
+
+.small_icon  {
+ width: 50px;
+ height: 50px; 
+}
+
+#team {
+	width: 100%;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-color: yellow;	
+  
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+
+#team_row {
+	display: flex;
+	flex-flow: rows; 
+}
+
+.person_icon > *{
+  display: flex;
+ /* flex-flow: column wrap;*/
+  justify-content: center;
+}
+
+#contact {
+ grid-row-start: 4;
+ grid-row-end: 6;
+ background-color: blue; 
+ width: 100%;
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+#contact > * {
+ display: flex;
+ justify-content: center; 
+}
+
+#contact_columns {
+ display: flex;
+ /*flex-direction: row;*/
+ justify-content: space-evenly;
+}
+
+#location {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+ #leave_message {
+    display: flex;
+	flex-flow: column wrap;
+ }
+
+footer, footer > * {
+ width: 100%;
+ background-color: orange;	
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
